@@ -12,7 +12,7 @@ if (!$conn) {
 	echo("Sí hay");
 	}
 	
-	$condicion1 = "SUCURSAL = '1'";
+	$condicion1 = "SUCURSAL = '12'";
 	$condicion2 = "ESTACION = '1'";
 
 	$sql = "SELECT * FROM ARTICULOS WHERE $condicion1 AND $condicion2";
