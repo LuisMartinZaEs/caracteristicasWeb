@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vista Provi CAJA1</title>
+	
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                url: "mostrar.php",
+                dataType: "html",
+                success: function(response) {
+                    $(".container").html(response);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html>

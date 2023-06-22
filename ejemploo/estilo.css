@@ -1,0 +1,28 @@
+.container {
+	margin: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.columns {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.column {
+	flex: 1 0 25%;
+	padding: 10px;
+	background-color: #858484;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+	font-weight: bold;
+}
+
+.textbox {
+	width: 200px;
+	padding: 5px;
+	margin-bottom: 15px;
+	margin: 10px;
+	background-color: rgb(206, 217, 228);
+}
